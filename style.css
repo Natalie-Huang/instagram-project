@@ -1,0 +1,120 @@
+p {font-size:15px}
+.space{word-spacing: 1.75em}
+h5{word-spacing: 0.15em}
+
+
+
+        .grid-container {
+          display: grid;
+          grid-gap: 0px 0px;
+          grid-template-columns: 220px auto auto auto auto auto auto 220px;
+          background-color: white;
+          padding: 10px;
+        }
+        
+        .grid-item1 {
+          background-color: rgba(255, 255, 255, 0.8);
+          border: 1px rgb(238, 237, 237);
+          padding: 2px;
+          font-size: 30px;
+          text-align: center;
+          grid-column: span 3;
+          padding-bottom: 10px;
+        }
+
+        .grid-itema {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px rgb(238, 237, 237);
+            padding-top: 10px;
+            font-size: 15px;
+            text-align: center;
+            grid-column: span 2;
+            margin-left: 30px;
+          }
+
+        
+        .grid-item2 {
+          background-color: rgb(238, 237, 237);
+          border: 1px rgb(238, 237, 237);
+          padding: 20px;
+          font-size: 30px;
+          text-align: left;
+          grid-column:span 4
+        }
+        
+        .grid-item3 {
+          background-color: rgb(238, 237, 237);
+          border: 1px rgb(238, 237, 237);
+          padding: 15px;
+          font-size: 30px;
+          text-align: center;
+          grid-column:span 2
+        }
+        
+        .grid-item4 {
+          background-color: rgb(238, 237, 237);
+          border: 1px rgb(238, 237, 237);
+          padding: 2px;
+          font-size: 30px;
+          text-align: center;
+          grid-row: span 5
+        }
+        .grid-item5 {
+          background-color: rgb(238, 237, 237);
+          border: 1px solid rgb(238, 237, 237);
+          padding: 5px;
+          font-size: 30px;
+          text-align: center;
+          grid-column:span 2;
+          padding-bottom: 20px;
+        }
+        .grid-item6 {
+          background-color: rgb(238, 237, 237);
+          border: 1px solid rgb(238, 237, 237);
+          padding: 2px;
+          font-size: 30px;
+          text-align: left;
+          grid-column:span 6
+        }
+
+        .grid-item7 {
+          background-color: rgb(238, 237, 237);
+          border: 1px solid rgb(238, 237, 237);
+          font-size: 20px;
+          text-align: center;
+          grid-column:span 6;
+          color:#707070;
+          border-top: 0.5px solid #707070;
+        }
+
+        .search {align-items: center;
+          border-radius: 5px;
+          width: 225px;
+          height: 30px;
+          background-color: rgb(238, 237, 237);
+          color: #707070;
+          font-family: arial;
+          border: 1px solid #707070;
+          padding-top: 0.2em;}
+
+        
+.box{position:static;}
+.overlay{position: inherit;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.grid-item5:hover .overlay {
+  opacity: 1;
+}
+
+        
+
+
+   
